@@ -1,1 +1,2 @@
 print('Zayniddin')
+print('nuriddin')
