@@ -10,6 +10,7 @@ packages = [{include = "fastapi_git_p8"}]
 python = "^3.10"
 fastapi = "^0.92.0"
 uvicorn = "^0.20.0"
+pyyaml = "^6.0"
 
 
 [build-system]
