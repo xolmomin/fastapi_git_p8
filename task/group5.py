@@ -46,3 +46,16 @@ with open('regions.csv') as file:
         result.append(d)
 with open('group5.json', 'w') as f:
     json.dump(result, f, indent=2)
+
+
+result = []
+with open('regions.csv') as file:
+    file.readline()
+    data = csv.reader(file)
+    for i in data:
+        d = {}
+        d['id'] = i[0]
+        d['name'] = i[1]
+        result.append(d)
+with open('group5.json', 'w') as f:
+    json.dump(result, f, indent=2)
