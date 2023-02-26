@@ -1,14 +1,17 @@
 import csv
 import json
-# import yaml
+import yaml
 
-data = []
+l=[]
 with open('regions.csv', 'r') as f:
     f.readline()
     for row in csv.reader(f):
-        data.append(row)
-# with open(r'group5.yaml', 'w') as file:
-#     documents = yaml.dump(data, file)
+        data = {}
+        data['id']=row[0]
+        data['name']=row[1]
+        l.append(data)
+with open(r'group5.yaml', 'w') as file:
+    documents = yaml.dump(l, file)
 
 result = {}
 with open('regions.csv') as file:
