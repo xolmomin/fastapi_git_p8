@@ -1,8 +1,13 @@
-print('Nasrulloh')
-print('Xolmomin')
-print('Diyorbek')
-print('Ozoda')
+import csv
+import yaml
 
+csv_file = open('regions_group4.csv', 'r')
+yaml_file = open('group4.yaml', 'w')
+
+fieldnames = ('name', 'age', 'gender')
+reader = csv.DictReader(csv_file, fieldnames)
+for row in reader:
+    yaml.dump(row, yaml_file, default_flow_style=False)
 import csv
 from xml.etree import ElementTree as ET
 
@@ -20,3 +25,19 @@ for row in reader:
         child.text = value
 
 xml_file.write(ET.tostring(root).decode())
+
+
+
+
+
+
+import csv
+import yaml
+
+csv_file = open('regions_group4.csv', 'r')
+yaml_file = open('group4.yaml', 'w')
+
+fieldnames = ('id', 'name')
+reader = csv.DictReader(csv_file, fieldnames)
+for row in reader:
+    yaml.dump(row, yaml_file, default_flow_style=False)
