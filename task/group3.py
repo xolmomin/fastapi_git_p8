@@ -8,4 +8,3 @@ with open('regions.csv') as reg:
 
 with open('group3.yaml', 'w') as yamlF:
     yaml.dump(data_y, yamlF)
-
