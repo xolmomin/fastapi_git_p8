@@ -1,0 +1,2 @@
+print('Abdurashid')
+print('Sardor')
