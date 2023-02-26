@@ -1,5 +1,3 @@
-print("Dilshod")
 print("Sharofiddin1")
-print("Nusratullo")
 print('Rahmiddin')
 print('Khasanjon')
