@@ -2,7 +2,7 @@ import csv
 import json
 # import yaml
 with open('regions.csv', newline='') as csvfile:
-    csvfile.readline()
+    # csvfile.readline()
     reader = csv.DictReader(csvfile)
 
     json_data = list(reader)
