@@ -24,5 +24,32 @@
   "\uFEFFid": '12'
 - name: Andijon
   "\uFEFFid": '13'
-- name: Toshkent shahar
+- id: '1'
+  name: Qoraqalpog'iston
   "\uFEFFid": '14'
+- id: '2'
+  name: Xorazm
+- id: '3'
+  name: Navoiy
+- id: '4'
+  name: Buxoro
+- id: '5'
+  name: Samarqand
+- id: '6'
+  name: Qashqadaryo
+- id: '7'
+  name: Surxondaryo
+- id: '8'
+  name: Jizzax
+- id: '9'
+  name: Sirdaryo
+- id: '10'
+  name: Toshkent viloyati
+- id: '11'
+  name: Namangan
+- id: '12'
+  name: Farg'ona
+- id: '13'
+  name: Andijon
+- id: '14'
+  name: Toshkent shahar
