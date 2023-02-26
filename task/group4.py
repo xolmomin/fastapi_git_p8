@@ -1,0 +1,2 @@
+print('Xolmomin')
+print('Diyorbek')
