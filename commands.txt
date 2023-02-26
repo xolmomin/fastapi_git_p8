@@ -1,3 +1,1 @@
-ctrl + k - commit
-ctrl + t - pull
-ctrl + shift + k - push
+ctrl+t-puoo
