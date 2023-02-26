@@ -1,5 +1,32 @@
+- name: Qoraqalpog'iston
+  "\uFEFFid": '1'
+- name: Xorazm
+  "\uFEFFid": '2'
+- name: Navoiy
+  "\uFEFFid": '3'
+- name: Buxoro
+  "\uFEFFid": '4'
+- name: Samarqand
+  "\uFEFFid": '5'
+- name: Qashqadaryo
+  "\uFEFFid": '6'
+- name: Surxondaryo
+  "\uFEFFid": '7'
+- name: Jizzax
+  "\uFEFFid": '8'
+- name: Sirdaryo
+  "\uFEFFid": '9'
+- name: Toshkent viloyati
+  "\uFEFFid": '10'
+- name: Namangan
+  "\uFEFFid": '11'
+- name: Farg'ona
+  "\uFEFFid": '12'
+- name: Andijon
+  "\uFEFFid": '13'
 - id: '1'
   name: Qoraqalpog'iston
+  "\uFEFFid": '14'
 - id: '2'
   name: Xorazm
 - id: '3'
