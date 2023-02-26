@@ -1,4 +1,6 @@
 import csv
+import json
+
 import pandas as pd
 
 f = open('regions.csv')
@@ -27,3 +29,20 @@ text = """<collection shelf="Regions">""" + "\n" + '\n'.join(
 print(text)
 with open('group2.xml', 'w') as myfile:
     myfile.write(text)
+
+
+import csv
+
+regions = []
+with open('regions.csv') as file:
+    file.readline()
+    csv_header = csv.reader(file)
+    for i, name in csv_header:
+        regions.append({
+            "id": i,
+            "name": name
+        })
+d = json.dumps(regions, indent=2)
+with open('group2.json', 'w') as f:
+    f.write(d)
+
