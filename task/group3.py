@@ -1,9 +1,17 @@
-# print('Abdurashid')
-# print('Sardor')
-# print("Nurali")
+import csv, json
 
-import csv, yaml
+data = {}
 
+with open('regions.csv') as reg:
+    csvReader = csv.DictReader(reg)
+    for rows in csvReader:
+        print(rows)
+        key = rows['\ufeffid']
+        data[key] = rows
+
+with open('group3.json', 'a') as jsonF:
+    jsonF.write(json.dumps(data, indent=4))
+#
 csv_file = open('regions.csv', 'r')
 data = csv.reader(csv_file, delimiter=',', quotechar='"')
 d = []
