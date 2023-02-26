@@ -47,3 +47,23 @@ with open('group2.yaml', 'w') as outfile:
         width=72,
         indent=4
     )
+
+
+
+import csv
+
+regions = []
+regions_dict = {}
+regions_data = []
+with open('regions.csv') as file:
+    file.readline()
+    csv_header = csv.reader(file)
+    for i, name in csv_header:
+        regions.append({
+            "id": i,
+            "name": name
+        })
+
+d = json.dumps(regions, indent=2)
+with open('group2.json', 'w') as f:
+    f.write(d)
