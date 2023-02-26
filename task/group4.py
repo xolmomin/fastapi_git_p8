@@ -20,8 +20,3 @@ for row in reader:
         child.text = value
 
 xml_file.write(ET.tostring(root).decode())
-fieldnames = ('id', 'name')
-reader = csv.DictReader(csv_file, fieldnames)
-for row in reader:
-    json.dump(row, json_file)
-    json_file.write('\n')
